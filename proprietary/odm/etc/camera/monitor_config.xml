@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="GB2312"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <MaintainConfig  Version="MaintainConfig_V1.2" Time="20170801">
     <TraceConfig>
         <Enable>1</Enable>
