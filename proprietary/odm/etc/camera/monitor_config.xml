@@ -26,11 +26,13 @@
             <Item Name="PP_sos" Enable="1" DefaultWarnThreshold="400" DefaultErrorThreshold="1000">
             </Item>
             <Item Name="PP_process" Enable="1" DefaultWarnThreshold="1500" DefaultErrorThreshold="3000">
-                <TimeOutThreshold AlgoName="digitalzoom" Warn="2000" Error="6000"/>
-                <TimeOutThreshold AlgoName="dualdepth" Warn="2000" Error="6000"/>
-                <TimeOutThreshold AlgoName="davincidsp" Warn="2000" Error="6000"/>
-                <TimeOutThreshold AlgoName="opticalzoomdsp" Warn="3500" Error="6000"/>
-                <TimeOutThreshold AlgoName="HwBeautyPpAlgo" Warn="3500" Error="6000"/>
+                <TimeOutThreshold AlgoName="digitalzoom" Warn="3000" Error="6000"/>
+                <TimeOutThreshold AlgoName="dualdepth" Warn="2000" Error="4500"/>
+                <TimeOutThreshold AlgoName="hdr" Warn="2000" Error="4500"/>
+                <TimeOutThreshold AlgoName="frontbokehmask" Warn="2000" Error="4500"/>
+                <TimeOutThreshold AlgoName="frontbokeh" Warn="2000" Error="4500"/>
+                <TimeOutThreshold AlgoName="HwBeautyPpAlgo" Warn="2000" Error="4500"/>
+                <TimeOutThreshold AlgoName="multidenoise" Warn="2000" Error="4500"/>
             </Item>
             <Item Name="PP_getFrame" Enable="1" DefaultWarnThreshold="100" DefaultErrorThreshold="400">
             </Item>
@@ -50,7 +52,7 @@
             <Item Name="IPP_destroy" Enable="1" DefaultWarnThreshold="400" DefaultErrorThreshold="1000">
             </Item>
             <Item Name="snapshot" Enable="1" DefaultWarnThreshold="1000" DefaultErrorThreshold="2000">
-                <TimeOutThreshold AlgoName="edof" Warn="1500" Error="2500"/>
+                <TimeOutThreshold AlgoName="edof" Warn="2000" Error="3000"/>
                 <TimeOutThreshold AlgoName="pro_camera" Warn="35000" Error="40000"/>
             </Item>
         </WatchDogItem>

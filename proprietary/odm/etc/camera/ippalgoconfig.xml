@@ -22,12 +22,10 @@
 	<IppAlgo name="AssistAF" switcher="1"></IppAlgo>
 	<IppAlgo name="ContrastCalculate" switcher="1"></IppAlgo>
 	<IppAlgo name="HwBeautyIpp" switcher="1"></IppAlgo>
-	<IppAlgo name="VideoBokehAlgo" switcher="0"></IppAlgo>
+	<IppAlgo name="MakeUpIppAlgo" switcher="0"></IppAlgo>
 	<IppAlgo name="VideoBokehDspAlgo" switcher="1"></IppAlgo>
-	<IppAlgo name="SdkDepthIppAlgo" switcher="0"></IppAlgo>
 	<IppAlgo name="IspEnhncAlgo" switcher="1"></IppAlgo>
 	<IppAlgo name="FrontBokehAlgo" switcher="1"></IppAlgo>
-	<IppAlgo name="Frontgesture" switcher="1" ></IppAlgo>
-	<IppAlgo name="FrontBokehOfArcSoftAlgo" switcher="0"></IppAlgo>
+	<IppAlgo name="Frontgesture" switcher="1"></IppAlgo>
 	<IppAlgo name="AgeGender" switcher="1"></IppAlgo>
 </IppConfig>

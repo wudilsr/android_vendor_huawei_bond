@@ -7,6 +7,5 @@
 		<AdapterPath>/odm/lib64/hwcam/hwcam.imx498.pd.so</AdapterPath>
 		<Switch>1</Switch>
 		<Spec>IMX498</Spec>
-		<Accelerator>1</Accelerator>
 	</Module>
 </Modules>
